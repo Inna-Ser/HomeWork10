@@ -9,5 +9,9 @@ public class Main {
     // Task 2 Ф.И.О. заглавными буквами
         String capitalLetterName = fullName.toUpperCase();
         System.out.println("Данные ФИО сотрудника для заполнения отчета - " + capitalLetterName);
+    // Task 3 Замена символов
+        String fullName1 = "Иванов Семён Семёнович";
+        fullName1 = fullName1.replace("ё", "е");
+        System.out.println(fullName1);
     }
 }
