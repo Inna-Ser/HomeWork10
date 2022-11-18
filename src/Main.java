@@ -12,6 +12,6 @@ public class Main {
     // Task 3 Замена символов
         String fullName1 = "Иванов Семён Семёнович";
         fullName1 = fullName1.replace("ё", "е");
-        System.out.println(fullName1);
+        System.out.println("Данные ФИО сотрудника - " + fullName1);
     }
 }
